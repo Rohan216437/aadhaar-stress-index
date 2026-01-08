@@ -1,0 +1,30 @@
+aadhaar-stress-index/
+│
+├── backend/
+│   ├── server.js
+│   ├── routes/
+│   │   ├── fetch.routes.js
+│   │   ├── analytics.routes.js
+│   ├── services/
+│   │   ├── uidai.service.js
+│   │   ├── clean.service.js
+│   │   ├── asi.service.js
+│   ├── data/
+│   │   ├── raw/
+│   │   ├── processed/
+│   ├── utils/
+│   │   ├── normalize.js
+│   └── package.json
+│
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── ASIChart.js
+│   │   │   ├── StressTable.js
+│   │   ├── pages/
+│   │   │   ├── Dashboard.js
+│   │   ├── api.js
+│   │   └── App.js
+│   └── package.json
+│
+└── README.md
