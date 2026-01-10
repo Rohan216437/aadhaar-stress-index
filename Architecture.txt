@@ -28,3 +28,27 @@ aadhaar-stress-index/
 │   └── package.json
 │
 └── README.md
+
+
+NEW FRONTEND ARCHITECTURE :
+frontend/
+│
+├── src/
+│   ├── components/
+│   │   ├── Header.js
+│   │   ├── KPIGrid.js
+│   │   ├── TimeSeriesChart.js
+│   │   ├── AgeBreakdown.js
+│   │   ├── UpdateBreakdown.js
+│   │   ├── InsightsPanel.js
+│   │
+│   ├── pages/
+│   │   └── Dashboard.js
+│   │
+│   ├── api/
+│   │   ├── enrolment.api.js
+│   │   ├── demo.api.js
+│   │   ├── biometric.api.js
+│   │
+│   ├── App.js
+│   └── index.css
